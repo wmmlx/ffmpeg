@@ -1,0 +1,23 @@
+{
+  "name": "videoserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2",
+    "bluebird": "^2.10.0",
+    "busboy": "^0.2.11",
+    "ffmpeg-static": "^1.0.0",
+    "optionator": "^0.6.0",
+    "tmp": "0.0.27",
+    "ws": "git+https://github.com/websockets/ws.git#7d071120333b8fa8d76d91e08884f81d97a441d0"
+  }
+}
